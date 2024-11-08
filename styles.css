@@ -508,7 +508,7 @@ p code{
 #layout3 > div{
 	display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1 fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 16px;
 	box-shadow: none;
 }
@@ -522,7 +522,7 @@ p code{
 #layout4 > div{
 	display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-row: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 16px;
 	box-shadow: none;
 }
@@ -676,7 +676,7 @@ footer{
 
     nav ul{
         display: grid;
-        grid-template-columns: repeat(3 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0 1rem;
         padding: 0;
     }
